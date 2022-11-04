@@ -14,5 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.buildFileName = "build.gradle.kts"
 rootProject.name = "Wallet"
 include(":app")
