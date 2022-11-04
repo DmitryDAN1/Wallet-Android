@@ -23,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            minifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
@@ -48,7 +48,7 @@ android {
 }
 
 dependencies {
-    apply(from = "../dependencies-core.gradle")
-    apply(from = "../dependencies-test.gradle")
-    apply(from = "../dependencies-ui.gradle")
+    apply(from: "../dependencies-core.gradle")
+    apply(from: "../dependencies-test.gradle")
+    apply(from: "../dependencies-ui.gradle")
 }
