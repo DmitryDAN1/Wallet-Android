@@ -1,4 +1,6 @@
 dependencies {
+    implementation project(path: ':wallet_theme')
+
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:${versions.android.lifecycleRuntimeKtx}")
 
     implementation("androidx.activity:activity-compose:${versions.compose.activity}")

@@ -16,4 +16,6 @@ dependencyResolutionManagement {
 
 rootProject.buildFileName = "build.gradle"
 rootProject.name = "Wallet"
+
 include(":app")
+include(":wallet_theme")
