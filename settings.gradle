@@ -18,4 +18,5 @@ rootProject.buildFileName = "build.gradle"
 rootProject.name = "Wallet"
 
 include(":app")
+include(":shared")
 include(":wallet_theme")
