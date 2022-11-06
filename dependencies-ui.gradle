@@ -1,5 +1,6 @@
 dependencies {
     implementation project(path: ':wallet_theme')
+    implementation project(path: ':uikit')
 
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:${versions.android.lifecycleRuntimeKtx}")
 

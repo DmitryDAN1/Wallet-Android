@@ -11,7 +11,8 @@ class WalletApplication : Application() {
         val sharedModel = MutableStateFlow<SharedModel>(SharedModel.Initialization)
     }
 
-    init {
+    override fun onCreate() {
+        super.onCreate()
         sharedModel.value = Shared.init(
             applicationContext = applicationContext,
         )
