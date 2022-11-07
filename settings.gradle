@@ -20,3 +20,5 @@ rootProject.name = "Wallet"
 include(":app")
 include(":shared")
 include(":wallet_theme")
+include(":uikit")
+include(":storybook")
