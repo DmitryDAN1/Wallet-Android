@@ -5,6 +5,8 @@ plugins {
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
+secrets { propertiesFileName = "env.properties" }
+
 android {
     namespace "com.kirodan.env"
     compileSdk rootProject.compileSdk
