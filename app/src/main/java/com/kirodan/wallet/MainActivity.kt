@@ -20,10 +20,10 @@ class MainActivity : ComponentActivity() {
 
         Log.wtf(
             "Shared Test",
-            when (val shared = WalletApplication.sharedModel.value) {
+            when (WalletApplication.sharedModel.value) {
                 is SharedModel.Failure -> "is failure"
                 is SharedModel.Initialization -> "is initialization"
-                is SharedModel.Ready -> "is ready - a = ${shared.a}"
+                is SharedModel.Ready -> "is ready"
             }
         )
 
